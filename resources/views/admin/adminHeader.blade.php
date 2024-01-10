@@ -13,6 +13,11 @@
       </li>
     </ul>
 
+        <form action="{{ route('logout') }}" method="POST" >
+            @csrf
+            <button class="nav-link">Logout</button>
+        </form>
+
     <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">
       <!-- Navbar Search -->
